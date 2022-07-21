@@ -1,0 +1,10 @@
+INICIO
+    VARIAVEL TEXTO RESPOSTA
+    RESPOSTA <- "SIM"
+    REPETE
+         ESCREVER "ESTOU PRONTO PARA A PROVA", "\n"
+          ESCREVER "CONTINUO COM O LAÇO ? (SIM/NÃO)"
+          LER RESPOSTA
+          ATE NAO(RESPOSTA = "SIM") 
+         
+         FIM

@@ -1,0 +1,15 @@
+INICIO
+    VARIAVEL INTEIRO SOMA
+     VARIAVEL INTEIRO CONTADOR
+     
+     CONTADOR <- 1
+     SOMA <- 0
+     
+    REPETE
+         ESCREVER CONTADOR, "\n"
+         SOMA <- SOMA + CONTADOR
+         CONTADOR <- CONTADOR + 1
+         ATE CONTADOR > 10
+         ESCREVER "O ACUMULADOR TEM O VALOR : " ,SOMA
+         FIM
+     
